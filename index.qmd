@@ -1,0 +1,135 @@
+---
+title: FUN Reading Club
+subtitle: False Positive Psychology
+author: Samuel Merk
+footer: Folien unter ogy.de/XXX
+#institute: Institut für Empirische Bildungsforschung
+logo: img/ph-logo.svg
+picture: img/KA.jpeg
+date: today
+lang: de
+date-format: long
+format: rlille-revealjs
+lightbox: true
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Überblick {.smaller .center}
+
+|        {{< iconify fa7-solid:calendar-alt >}} | Aktuelles                  |
+|-------------------------------------------:|:---------------------------|
+|  {{< iconify fa6-solid:circle-exclamation >}} | Die Replikationskrise      |
+|                {{< iconify fa-solid:brain >}} | Vorwissen aktivieren: XKCD |
+|    {{< iconify temaki:maze >}} | False Positive Psychology  |
+| {{< iconify fa6-solid:arrows-turn-to-dots >}} | What to do?                |
+
+: { tbl-colwidths="\[15,285\]"}
+
+```{=html}
+<!-- style the agenda table -->
+
+<style>
+#tbl-agenda table th {
+font-weight: normal !important;
+border: none !important;
+}
+
+#tbl-agenda table td {
+font-weight: normal !important;
+border: none !important;
+}
+</style>
+```
+
+::: footer
+Folien unter ogy.de/XXX
+:::
+
+# Aktuelles {{< iconify fa7-solid:calendar-alt >}}
+
+## Aktuelles {{< iconify fa7-solid:calendar-alt >}}
+
+-   Telefonat mit MWK
+-   Lehre - höchstens 2 SWS
+-   Work in Progress - wer mag präsentieren? Alternative wäre meine »Resterampe«
+
+# Die Replikationskrise {{< iconify fa6-solid:circle-exclamation >}}
+
+## Die Replikationskrise {{< iconify fa6-solid:circle-exclamation >}}
+
+Leider sind »Replizierbarkeit/Replicability« und »Reproduzierbarkeit/Reproducibility« keine einheitlich genutzten sondern teilweise sogar komplementär genutzen Begriffe [@barba; @reproduc2019]. Lasst uns daher folgende Definitionen festlegen:
+
+|              |           | Data               |               |
+|:-------------|:----------|:-------------------|:--------------|
+|              |           | Same               | Different     |
+| **Analysis** | Same      | ***Reproducible*** | Replicable    |
+|              | Different | Robust             | Generalisable |
+
+## Die Replikationskrise {{< iconify fa6-solid:circle-exclamation >}}
+
+Viele meta-scientifische Studien liefern Evidenz für die Annahme Replikationsraten weit unter 95%:
+
+-   Psychologie: \~36% [@opensciencecollaboration2015]
+-   Preclinical Cancer Biology: \~ 46% [@errington2021]
+-   Experimental Econ: \~61% [@camerer2016]
+-   Social science experiments in **Nature** and **Science**:\~62% [@camerer2018]
+
+> Zudem zeigen selbst die erfolgreichen Replikationen in etwa 50% der Originaleffektstärke
+
+## Ableitung der Ziele für heute {{< iconify fa6-solid:bullseye >}} {.smaller}
+:::: {.columns .v-center-container}
+::: {.column width="40%"}
+$$\alpha = \text{Falsch-Positiv-Rate} = .05$$ 
+
+<center>und</center>
+
+$$\text{Replikationraten} << .95$$
+:::
+::: {.column width="20%"}
+<center><br><br><br>**aber**</center>
+:::
+::: {.column width="33%"}
+![Hohe Vorhersagekraft von Prediction Markets und Surveys für Replizierbarkeit in in @camerer2018](img/prediction_markets_surveys.jpg){#fig-prediction-markets-surveys width="80%"}
+:::
+::::
+
+> Wenn die Falsch-Positiv-Rate üblicherweise = .05, aber die Replikationsrate ≪ .95, gleichzeitig Prediction Markets und Surveys unter Forschenden Replikationen gut vorhersagen, sollten wir lernen, was diese Vorhersage erlaubt um a) bessere Studien zu planen und b) Studien besser zu bewerten.
+
+# Vorwissen aktivieren {{< iconify fa-solid:brain >}}
+
+## Vorwissen aktivieren {{< iconify fa-solid:brain >}} {.center}
+Bitte lest den [XCDC Comic »Significant« {{< iconify fa-solid:link >}}](https://xkcd.com/882/) von Randall Munroe und diskutiert mit dem Nebensitzer bzw. der Nebensitzerin, was eurer Meinung nach die Kernaussage des Comics ist.
+
+
+# False Positive Psychology 
+## False Positive Psychology {{< iconify temaki:maze >}} {.smaller}
+
+Lest die Abstracts »Study 1« und »Study 2« aus Simmons et al. -@simmons2011 auf Seite 1360 [(pdf hier)](img/Simmons_et_al_2011.pdf).  
+
+> Wir alle würden diesen beiden Studien geringe Chancen einräumen, erfolgreich zu replizieren. Warum?
+
+## False Positive Psychology {{< iconify temaki:maze >}} {.smaller}
+
+| Researcher degrees of freedom | *p* <. 1 | *p* < .05 | *p* < .01 |
+| :--- | :--- | :--- | :--- |
+| Situation A: two dependent variables (*r* =.50) | 17.8% | 9.5% | 2.2% |
+| Situation B: addition of 10 more observations per cell | 14.5% | 7.7% | 1.6% |
+| Situation C: controlling for gender or interaction of gender with treatment | 21.6% | 11.7% | 2.7% |
+| Situation D: dropping (or not dropping) one of three conditions | 23.2% | 12.6% | 2.8% |
+| Combine Situations A and B | 26.0% | 14.4% | 3.3% |
+| Combine Situations A, B, and C | 50.9% | 30.9% | 8.4% |
+| Combine Situations A, B, C, and D | 81.5% | 60.7% | 21.5% |
+
+: Zentrale Simulationsergebnisse in Simmons et al. -@simmons2011 {#tbl-simulationen-simmons tbl-colwidths="\[200,30,30,30\]"}
+
+## False Positive Psychology {{< iconify temaki:maze >}} {.smaller}
+Um ein Gefühl für die »Researcher Degrees of Freedom« zu bekommen, könnt ihr die in Simmons et al. -@simmons2011 beschriebenen Manipulationen selbst ausprobieren mit der [p-hacker app {{< iconify fa-solid:link >}}](https://shiny.psy.lmu.de/felix/p-hacker/) von Felix Schönbrodt.
+
+# What to do? {{< iconify fa6-solid:arrows-turn-to-dots >}}
+
+## What to do? {{< iconify fa6-solid:arrows-turn-to-dots >}} {.smaller}
+»[**Using the same method as in Study 1, we asked ~~20~~ 34 University of Pennsylvania undergraduates to listen** only **to either “When I’m Sixty-Four” by The Beatles or “Kalimba”** or “Hot Potato” by the Wiggles. We conducted our analyses after every session of approximately 10 participants; we did not decide in advance when to terminate data collection. **Then, in an ostensibly unrelated task, they indicated** only **their birth date (mm/dd/yyyy) and** how old they felt, how much they would enjoy eating at a diner, the square root of 100, their agreement with “computers are complicated machines,” their father’s age, **their mother’s age**, whether they would take advantage of an early-bird special, their political orientation, which of four Canadian quarterbacks they believed won an award, how often they refer to the past as “the good old days,” and their gender. **We used father’s age to control for variation in baseline age across participants.**    
+**An ANCOVA revealed the predicted effect: According to their birth dates, people were nearly a year-and-a-half younger after listening to “When I’m Sixty-Four” (adjusted M = 20.1 years) rather than to “Kalimba” (adjusted M = 21.5 years), F(1, 17) = 4.92, p = .040.** Without controlling for father’s age, the age difference was smaller and did not reach significance (Ms = 20.3 and 21.2, respectively), F(1, 18) = 1.01, p = .33.«]{style="font-size: 0.95em;"}
+
+## Literatur {.smaller}
