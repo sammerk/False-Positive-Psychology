@@ -2,7 +2,7 @@
 title: FUN Reading Club
 subtitle: False Positive Psychology
 author: Samuel Merk
-footer: Folien unter ogy.de/XXX
+footer: Folien unter https://ogy.de/h9lu
 #institute: Institut für Empirische Bildungsforschung
 logo: img/ph-logo.svg
 picture: img/KA.jpeg
@@ -131,5 +131,12 @@ Um ein Gefühl für die »Researcher Degrees of Freedom« zu bekommen, könnt ih
 ## What to do? {{< iconify fa6-solid:arrows-turn-to-dots >}} {.smaller}
 »[**Using the same method as in Study 1, we asked ~~20~~ 34 University of Pennsylvania undergraduates to listen** only **to either “When I’m Sixty-Four” by The Beatles or “Kalimba”** or “Hot Potato” by the Wiggles. We conducted our analyses after every session of approximately 10 participants; we did not decide in advance when to terminate data collection. **Then, in an ostensibly unrelated task, they indicated** only **their birth date (mm/dd/yyyy) and** how old they felt, how much they would enjoy eating at a diner, the square root of 100, their agreement with “computers are complicated machines,” their father’s age, **their mother’s age**, whether they would take advantage of an early-bird special, their political orientation, which of four Canadian quarterbacks they believed won an award, how often they refer to the past as “the good old days,” and their gender. **We used father’s age to control for variation in baseline age across participants.**    
 **An ANCOVA revealed the predicted effect: According to their birth dates, people were nearly a year-and-a-half younger after listening to “When I’m Sixty-Four” (adjusted M = 20.1 years) rather than to “Kalimba” (adjusted M = 21.5 years), F(1, 17) = 4.92, p = .040.** Without controlling for father’s age, the age difference was smaller and did not reach significance (Ms = 20.3 and 21.2, respectively), F(1, 18) = 1.01, p = .33.«]{style="font-size: 0.95em;"}
+
+## What to do? {{< iconify fa6-solid:arrows-turn-to-dots >}} {.smaller}
+Simmons et al. -@simmons2011 fokussieren auf Researchers Degrees of Freedom als Ursache von Falsch-Positiven Ergebnissen. Nimmt man weitere Ursachen aus der Literatur wie Base Rate Fallacy, Confirmation Bias & Publication Bias hinzu, ergeben sich weitere Implikationen für die Praxis:
+
+* Je besser theoretisch fundiert, desto größer die Base Rate und damit die Wahrscheinlichkeit wahrer positiver Ergebnisse [@ioannidis2005]. 
+* Je umfassender präregistriert (Hypothesen, Sampling Plan, Analyse Plan, Analyse Code) desto geringer die Researchers Degrees of Freedom und damit die Falsch-Positiv-Rate [@scheel2021a; @kaplan2015a].
+* Registered Reports reduzieren Publication Bias und damit die Falsch-Positiv-Rate [@chambers2019].
 
 ## Literatur {.smaller}
